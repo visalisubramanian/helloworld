@@ -1,0 +1,20 @@
+{
+    "name": "visali-pttk3214/hello-world",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "visali",
+            "email": "your@name.com"
+        }
+    ],
+    "require-dev" : {
+        "phpunit/phpunit" : ">=5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    }
+}
